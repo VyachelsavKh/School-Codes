@@ -1,0 +1,50 @@
+﻿<Window x:Class="Calc_v1._1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calc_v1._1"
+        mc:Ignorable="d"
+        Title="Славин калькулятор" Height="358" Width="256" ResizeMode="CanMinimize">
+
+    <Grid>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="79" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="220"/>
+        <TextBlock x:Name ="txt" HorizontalAlignment="Left" Height="49" Margin="15,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+        <TextBlock Name ="mem_txt" HorizontalAlignment="Left" Height="25" Margin="15,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+
+        <Button Content="MC" HorizontalAlignment="Left" Margin="10,94,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_19"/>
+        <Button Content="MR" HorizontalAlignment="Left" Margin="55,94,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_20"/>
+        <Button Content="MS" HorizontalAlignment="Left" Margin="100,94,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_21"/>
+        <Button Content="M+" HorizontalAlignment="Left" Margin="145,94,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_22"/>
+        <Button Content="M-" HorizontalAlignment="Left" Margin="190,94,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_23"/>
+
+        <Button Content="←" HorizontalAlignment="Left" Margin="10,131,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_11"/>
+        <Button Content="C" HorizontalAlignment="Left" Margin="55,131,0,0" VerticalAlignment="Top" Width="85" Height="32" Click="Button_Click_12"/>
+        <Button Content="±" HorizontalAlignment="Left" Margin="145,131,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_13"/>
+        <Button Content="√" HorizontalAlignment="Left" Margin="190,131,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_24"/>
+
+        <Button Content="7" HorizontalAlignment="Left" Margin="10,168,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_7"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="55,168,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_8"/>
+        <Button Content="9" HorizontalAlignment="Left" Margin="100,168,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_9"/>
+        <Button Content="/" HorizontalAlignment="Left" Margin="145,168,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_17"/>
+        <Button Content="%" HorizontalAlignment="Left" Margin="190,168,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_26"/>
+
+        <Button Content="4" HorizontalAlignment="Left" Margin="10,205,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_4"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="55,205,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_5"/>
+        <Button Content="6" HorizontalAlignment="Left" Margin="100,205,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_6"/>
+        <Button Content="*" HorizontalAlignment="Left" Margin="145,205,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_16"/>
+        <Button Content="1/x" HorizontalAlignment="Left" Margin="190,205,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_25"/>
+
+        <Button Content="1" HorizontalAlignment="Left" Margin="10,242,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_1"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="55,242,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_2"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="100,242,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_3"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="145,242,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_15"/>
+
+        <Button Content="0" HorizontalAlignment="Left" Margin="10,279,0,0" VerticalAlignment="Top" Width="85" Height="32" Click="Button_Click"/>
+        <Button Content="," HorizontalAlignment="Left" Margin="100,279,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_10"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="145,279,0,0" VerticalAlignment="Top" Width="40" Height="32" Click="Button_Click_14"/>
+        <Button Content="=" HorizontalAlignment="Left" Margin="190,242,0,0" VerticalAlignment="Top" Width="40" Height="69" Click="Button_Click_18"/>
+
+        <TextBlock Name ="debug" HorizontalAlignment="Left" Height="301" Margin="260,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236"><Run Text="Debug:"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+    </Grid>
+</Window>
