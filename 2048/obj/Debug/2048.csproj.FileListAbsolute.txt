@@ -1,0 +1,15 @@
+C:\Users\Slava\source\repos\2048\bin\Debug\2048.exe.config
+C:\Users\Slava\source\repos\2048\bin\Debug\2048.exe
+C:\Users\Slava\source\repos\2048\bin\Debug\2048.pdb
+C:\Users\Slava\source\repos\2048\obj\Debug\2048.csprojAssemblyReference.cache
+C:\Users\Slava\source\repos\2048\obj\Debug\MainWindow.g.cs
+C:\Users\Slava\source\repos\2048\obj\Debug\App.g.cs
+C:\Users\Slava\source\repos\2048\obj\Debug\2048_MarkupCompile.cache
+C:\Users\Slava\source\repos\2048\obj\Debug\2048_MarkupCompile.lref
+C:\Users\Slava\source\repos\2048\obj\Debug\MainWindow.baml
+C:\Users\Slava\source\repos\2048\obj\Debug\2048.g.resources
+C:\Users\Slava\source\repos\2048\obj\Debug\_2048.Properties.Resources.resources
+C:\Users\Slava\source\repos\2048\obj\Debug\2048.csproj.GenerateResource.cache
+C:\Users\Slava\source\repos\2048\obj\Debug\2048.csproj.CoreCompileInputs.cache
+C:\Users\Slava\source\repos\2048\obj\Debug\2048.exe
+C:\Users\Slava\source\repos\2048\obj\Debug\2048.pdb
