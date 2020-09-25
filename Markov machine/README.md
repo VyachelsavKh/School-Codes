@@ -1,1 +1,1 @@
-Turig Machine Emulator.
+Executor of Markov algorithms.
