@@ -15,14 +15,14 @@ std::string conv(double gr)
     gr = 1 - gr;
 
     if (0 > gr - 0.01 && 0 < gr + 0.01)
-        return "0   ";
+        return "0     ";
 
-    std::string out = std::to_string(gr).substr(0, 4);
+    std::string out = std::to_string(gr).substr(0, 6);
 
     return out;
 }
 
-void convert_bmp_to_txt(std::string image_path, std::ofstream& fout, std::string name, int newSize, int outputNames)
+void convert_bmp_to_txt(std::string image_path, std::ofstream& fout, std::string name, int newHeight, int newWidth, int outputNames)
 {
     bitmap_image image(image_path);
     
@@ -35,10 +35,10 @@ void convert_bmp_to_txt(std::string image_path, std::ofstream& fout, std::string
         return;
     }
 
-    int red, green, blue;
+    double red, green, blue;
     rgb_t colours[9];
 
-    std::vector<std::vector<Pixel>> newImage(newSize, std::vector<Pixel>(newSize));
+    std::vector<std::vector<Pixel>> newImage(newWidth, std::vector<Pixel>(newHeight));
 
     int newx;
     int newy;
@@ -47,8 +47,8 @@ void convert_bmp_to_txt(std::string image_path, std::ofstream& fout, std::string
     {
         for (int x = 0; x < width; ++x)
         {
-            newx = round((double)x / (width - 1) * (newSize - 1));
-            newy = round((double)y / (height - 1) * (newSize - 1));
+            newx = round((double)x / (width - 1) * (newWidth - 1));
+            newy = round((double)y / (height - 1) * (newHeight - 1));
             
             red = 0;
             green = 0;
@@ -105,13 +105,13 @@ void convert_bmp_to_txt(std::string image_path, std::ofstream& fout, std::string
     
     rgb_t colour;
 
-    for (int x = 0; x < newSize; ++x)
+    for (int y = 0; y < newHeight; ++y)
     {
-        for (int y = 0; y < newSize; ++y)
+        for (int x = 0; x < newWidth; ++x)
         {
-            newImage[x][y].red /= 100 / (newImage[x][y].count == 0 ? 1 : newImage[x][y].count);
-            newImage[x][y].green /= 100 / (newImage[x][y].count == 0 ? 1 : newImage[x][y].count);
-            newImage[x][y].blue /= 100 / (newImage[x][y].count == 0 ? 1 : newImage[x][y].count);
+            newImage[x][y].red = newImage[x][y].red / 100 / (newImage[x][y].count == 0 ? 1 : newImage[x][y].count);
+            newImage[x][y].green = newImage[x][y].green / 100 / (newImage[x][y].count == 0 ? 1 : newImage[x][y].count);
+            newImage[x][y].blue = newImage[x][y].blue / 100 / (newImage[x][y].count == 0 ? 1 : newImage[x][y].count);
 
         }
     }
@@ -121,9 +121,9 @@ void convert_bmp_to_txt(std::string image_path, std::ofstream& fout, std::string
     if(outputNames)
         fout << name << "\n";
     
-    for (int y = 0; y < newSize; ++y)
+    for (int y = 0; y < newHeight; ++y)
     {
-        for (int x = 0; x < newSize; ++x)
+        for (int x = 0; x < newWidth; ++x)
         {
             grey = newImage[x][y].red * 0.3 + newImage[x][y].green * 0.6 + newImage[x][y].blue * 0.1;
 

@@ -17,6 +17,13 @@ int main()
     bool outputNames;
     std::cin >> outputNames;
 
+    int height;
+    int width;
+    std::cout << "Input new images height: ";
+    std::cin >> height;
+    std::cout << "Input new images width: ";
+    std::cin >> width;
+
     std::vector<std::string> files = readFiles(path);
 
     std::ofstream fout(path + "/Out.txt");
@@ -46,7 +53,7 @@ int main()
         name = files[i][0];
         bmpPath = path + "/" + files[i];
 
-        convert_bmp_to_txt(bmpPath, fout, name, 32, outputNames);
+        convert_bmp_to_txt(bmpPath, fout, name, height, width, outputNames);
     }
     
     return 0;
