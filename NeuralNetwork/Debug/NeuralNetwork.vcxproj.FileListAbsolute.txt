@@ -1,0 +1,2 @@
+C:\Users\Slava\source\repos\NeuralNetwork\Debug\NeuralNetwork.exe
+C:\Users\Slava\source\repos\NeuralNetwork\Debug\NeuralNetwork.pdb

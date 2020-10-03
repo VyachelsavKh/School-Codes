@@ -1,0 +1,35 @@
+﻿  NeuralNetwork.cpp
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(45,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(48,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(52,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(67,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(82,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(84,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(86,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(104,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(106,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(110,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(131,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(133,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(137,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(153,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(156,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(159,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(162,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(175,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(184,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(198,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(200,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.h(207,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.cpp(129,35): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.cpp(150,39): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.cpp(176,35): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.cpp(193,35): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.cpp(245,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.cpp(246,34): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.cpp(249,79): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.cpp(281,39): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.cpp(295,35): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.cpp(296,42): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
+C:\Users\Slava\source\repos\NeuralNetwork\NeuralNetwork.cpp(312,31): warning C4018: <: несоответствие типов со знаком и без знака
+  NeuralNetwork.vcxproj -> C:\Users\Slava\source\repos\NeuralNetwork\Debug\NeuralNetwork.exe
