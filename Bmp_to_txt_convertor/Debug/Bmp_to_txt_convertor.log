@@ -1,0 +1,14 @@
+﻿  Bmp_to_txt_convertor.cpp
+C:\Users\Slava\source\repos\Bmp_to_txt_convertor\Convert.h(46,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\Bmp_to_txt_convertor\Convert.h(48,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\Bmp_to_txt_convertor\Convert.h(50,25): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Slava\source\repos\Bmp_to_txt_convertor\Convert.h(51,25): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Slava\source\repos\Bmp_to_txt_convertor\Convert.h(61,45): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\Bmp_to_txt_convertor\Convert.h(61,76): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\Bmp_to_txt_convertor\Convert.h(80,73): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\Slava\source\repos\Bmp_to_txt_convertor\Convert.h(81,77): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\Slava\source\repos\Bmp_to_txt_convertor\Convert.h(82,75): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\Slava\source\repos\Bmp_to_txt_convertor\Convert.h(106,11): warning C4101: colour: неиспользованная локальная переменная
+C:\Users\Slava\source\repos\Bmp_to_txt_convertor\Bmp_to_txt_convertor.cpp(26,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Slava\source\repos\Bmp_to_txt_convertor\Bmp_to_txt_convertor.cpp(44,23): warning C4018: <: несоответствие типов со знаком и без знака
+  Bmp_to_txt_convertor.vcxproj -> C:\Users\Slava\source\repos\Bmp_to_txt_convertor\Debug\Bmp_to_txt_convertor.exe
