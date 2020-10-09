@@ -1,0 +1,2 @@
+C:\Users\Slava\source\repos\Patterns\Factory Method\Debug\Factory Method.exe
+C:\Users\Slava\source\repos\Patterns\Factory Method\Debug\Factory Method.pdb
